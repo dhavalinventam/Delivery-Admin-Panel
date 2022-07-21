@@ -27,7 +27,10 @@ h1,h2,h3,h4,h5,h6 {
 a:hover {
   text-decoration: none;
 }
-
+.small-text {
+  font-size: 14px;
+  margin: 0;
+}
 
 .panel-view-main-div {
   display: grid;
@@ -54,6 +57,24 @@ a:hover {
   box-shadow: var(--card-shadow);
 }
 /* === RIGHT SECTION CSS END === */
+
+/* Scroll Bar  */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #999999; 
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A2A2A2; 
+}
 
 
 /* === MEDIA QUERY START === */
